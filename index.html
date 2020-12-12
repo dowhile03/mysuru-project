@@ -18,7 +18,7 @@
       crossorigin="anonymous"
     />
 
-    <link href="./style.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesaheet" />
     <title>Mysuru</title>
   </head>
   <body>
@@ -38,10 +38,13 @@
             >
             <ul class="right hide-on-med-and-down">
               <li>
-                <a href="#home">Home</a>
+                <a href="index.html">Home</a>
               </li>
               <li>
                 <a href="#search">Search</a>
+              </li>
+              <li>
+                <a href="./transport/transport.html">Transport</a>
               </li>
               <li>
                 <a href="#popular">Popular Places</a>
@@ -129,6 +132,7 @@
                 placeholder="Aruba, Cancun, etc..."
                 type="text"
                 id="autocomplete-input"
+                onkeyup="myFunction()"
               />
             </div>
           </div>
@@ -144,30 +148,21 @@
             <div class="card-panel">
               <i class="material-icons large amber-text">room</i>
               <h4>Pick Where</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Quidem, velit.
-              </p>
+              <p>Best Stays at Accomodable Prices.</p>
             </div>
           </div>
           <div class="col s12 m4">
             <div class="card-panel">
               <i class="material-icons large amber-text">store</i>
               <h4>Travel Shop</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Quidem, velit.
-              </p>
+              <p>Best Shops at your Location.</p>
             </div>
           </div>
           <div class="col s12 m4">
             <div class="card-panel">
               <i class="material-icons large amber-text">airplanemode_active</i>
               <h4>Fly Cheap</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Quidem, velit.
-              </p>
+              <p>Fly Out at your customized rates</p>
             </div>
           </div>
         </div>
@@ -193,14 +188,17 @@
           <div class="col s12 m4">
             <div class="card">
               <div class="card-image">
-                <img src="https://t0.gstatic.com/images?q=tbn:ANd9GcR5ZnIBxLfjUASXIykXv8RVnKqBqA8QFCL2sKMYj292ruewChRcvm8YDcYIuUDqKoA8BK9NLILwNquWuq7QsVyDbw" alt="" />
+                <img
+                  src="https://t0.gstatic.com/images?q=tbn:ANd9GcR5ZnIBxLfjUASXIykXv8RVnKqBqA8QFCL2sKMYj292ruewChRcvm8YDcYIuUDqKoA8BK9NLILwNquWuq7QsVyDbw"
+                  alt=""
+                />
                 <span class="card-title">Chamundeshwar temple</span>
               </div>
               <div class="card-content">
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Voluptas aliquid fugiat corporis laudantium, architecto
-                  delectus?
+                  The Chamundeshwari Temple is a Hindu temple located on the top
+                  of Chamundi Hills about 13 km from the palace city of Mysore
+                  in the state of Karnataka in India
                 </p>
               </div>
             </div>
@@ -208,14 +206,17 @@
           <div class="col s12 m4">
             <div class="card">
               <div class="card-image">
-                <img src="https://images.unsplash.com/photo-1591018596812-d8f7bbaf4685?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" />
+                <img
+                  src="https://images.unsplash.com/photo-1591018596812-d8f7bbaf4685?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                  alt=""
+                />
                 <span class="card-title">Mysore Palace</span>
               </div>
               <div class="card-content">
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Voluptas aliquid fugiat corporis laudantium, architecto
-                  delectus?
+                  The Mysore Palace is a historical palace and the royal
+                  residence at Mysore in the Indian State of Karnataka. It is
+                  the official residence of the Wadiyar dynasty.
                 </p>
               </div>
             </div>
@@ -223,14 +224,17 @@
           <div class="col s12 m4">
             <div class="card">
               <div class="card-image">
-                <img src="https://t0.gstatic.com/images?q=tbn:ANd9GcSSvwf--8Cfu-AeTtM-vu4JJd3JWw0dTJCt5PIccW5oZ8x1ndJFSXxd8D0EzBCVC5Deggbzu4r0HDuBNlQdwGLC4Q" alt="" />
+                <img
+                  src="https://t0.gstatic.com/images?q=tbn:ANd9GcSSvwf--8Cfu-AeTtM-vu4JJd3JWw0dTJCt5PIccW5oZ8x1ndJFSXxd8D0EzBCVC5Deggbzu4r0HDuBNlQdwGLC4Q"
+                  alt=""
+                />
                 <span class="card-title">St. Philomena's Cathedral</span>
               </div>
               <div class="card-content">
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Voluptas aliquid fugiat corporis laudantium, architecto
-                  delectus?
+                  St. Philomena’s Cathedral is a Catholic church that is the
+                  cathedral of the Diocese of Mysore, India. The full name is
+                  the Cathedral of St. Joseph and St. Philomena
                 </p>
               </div>
             </div>
@@ -238,8 +242,8 @@
         </div>
         <div class="row">
           <div class="col s12 center">
-            <a href="#contact" class="btn btn-large grey darken-3">
-              <i class="material-icons left">send</i> Contact For Booking
+            <a href="#" class="btn btn-large grey darken-3">
+              <i class="material-icons left">send</i> Explore More Places
             </a>
           </div>
         </div>
@@ -279,59 +283,28 @@
           <div class="col s12 m3">
             <img
               class="materialboxed responsive-img"
-              src="https://source.unsplash.com/1600x900/?beach"
+              src="https://images.unsplash.com/photo-1523544261025-3159599b1fc3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8aW1hZ2VzJTIwb2YlMjBteXN1cnV8ZW58MHwwfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
               alt=""
             />
           </div>
           <div class="col s12 m3">
             <img
               class="materialboxed responsive-img"
-              src="https://source.unsplash.com/1600x900/?travel"
+              src="https://images.unsplash.com/photo-1592150053369-ed15a7f68b92?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8aW1hZ2VzJTIwb2YlMjBteXN1cnV8ZW58MHwwfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
               alt=""
             />
           </div>
           <div class="col s12 m3">
             <img
               class="materialboxed responsive-img"
-              src="https://source.unsplash.com/1600x900/?nature"
+              src="https://images.unsplash.com/photo-1601224560074-f6925eba05e6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fGltYWdlcyUyMG9mJTIwbXlzdXJ1fGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
               alt=""
             />
           </div>
           <div class="col s12 m3">
             <img
               class="materialboxed responsive-img"
-              src="https://source.unsplash.com/1600x900/?beach, travel"
-              alt=""
-            />
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col s12 m3">
-            <img
-              class="materialboxed responsive-img"
-              src="https://source.unsplash.com/1600x900/?beaches"
-              alt=""
-            />
-          </div>
-          <div class="col s12 m3">
-            <img
-              class="materialboxed responsive-img"
-              src="https://source.unsplash.com/1600x900/?traveling"
-              alt=""
-            />
-          </div>
-          <div class="col s12 m3">
-            <img
-              class="materialboxed responsive-img"
-              src="https://source.unsplash.com/1600x900/?bridge"
-              alt=""
-            />
-          </div>
-          <div class="col s12 m3">
-            <img
-              class="materialboxed responsive-img"
-              src="https://source.unsplash.com/1600x900/?boat, travel"
+              src="https://images.unsplash.com/photo-1588602281518-01f05f05d03f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
               alt=""
             />
           </div>
@@ -341,28 +314,59 @@
           <div class="col s12 m3">
             <img
               class="materialboxed responsive-img"
-              src="https://source.unsplash.com/1600x900/?water"
+              src="https://images.unsplash.com/photo-1535282743584-20acadd160a1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
               alt=""
             />
           </div>
           <div class="col s12 m3">
             <img
               class="materialboxed responsive-img"
-              src="https://source.unsplash.com/1600x900/?building"
+              src="https://images.unsplash.com/photo-1566729729902-6bf5cda1c164?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
               alt=""
             />
           </div>
           <div class="col s12 m3">
             <img
               class="materialboxed responsive-img"
-              src="https://source.unsplash.com/1600x900/?trees"
+              src="https://images.unsplash.com/photo-1561199155-dbf801824f68?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
               alt=""
             />
           </div>
           <div class="col s12 m3">
             <img
               class="materialboxed responsive-img"
-              src="https://source.unsplash.com/1600x900/?cruise"
+              src="https://images.unsplash.com/photo-1600324831351-1c89514af7df?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1159&q=80"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12 m3">
+            <img
+              class="materialboxed responsive-img"
+              src="https://images.unsplash.com/photo-1504686740608-f31434d038e6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
+              alt=""
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              class="materialboxed responsive-img"
+              src="https://images.unsplash.com/photo-1600231325646-71e1a422ae95?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1047&q=80"
+              alt=""
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              class="materialboxed responsive-img"
+              src="https://images.unsplash.com/photo-1580294647332-8a399cd9ed45?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
+              alt=""
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              class="materialboxed responsive-img"
+              src="https://images.unsplash.com/photo-1590766940554-634a7ed41450?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1162&q=80"
               alt=""
             />
           </div>
@@ -377,20 +381,19 @@
           <div class="col s12 m6">
             <div class="card-panel amber white-text center">
               <i class="material-icons medium">email</i>
-              <h5>Contact Us For Booking</h5>
+              <h5>Contact Us</h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Repellendus sed praesentium delectus. Sit, mollitia quo. Veniam
-                repellat voluptas ipsum doloremque?
+                Specify your details in the provided form and we will reach you
+                as soon as <possible class=""></possible>
               </p>
             </div>
             <ul class="collection with-header">
               <li class="collection-header">
                 <h4>Location</h4>
               </li>
-              <li class="collection-item">Travelville Agency</li>
-              <li class="collection-item">555 Beach rd, Suite 33</li>
-              <li class="collection-item">Miami FL, 55555</li>
+              <li class="collection-item">Mysuru Tourism</li>
+              <li class="collection-item">Mysore 570001</li>
+              <li class="collection-item">Karnataka</li>
             </ul>
           </div>
           <div class="col s12 m6">
@@ -425,7 +428,7 @@
 
     <!-- Footer -->
     <footer class="section amber darken-2 white-text center">
-      <p class="flow-text">Travelville &copy; 2018</p>
+      <p class="flow-text">Mysuru &copy; 2020</p>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
