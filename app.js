@@ -39,6 +39,7 @@ M.Autocomplete.init(ac, {
 
   },
 });
+const search = document.getElementById("autocomplete-input").value;
 
 function done() {
   const name = document.getElementById("name").value;
