@@ -27,10 +27,16 @@ M.Autocomplete.init(ac, {
     "Brindavan garden": null,
     "Sri chamarajendra zoological garden": null,
     "sri chamundeshwari temple": null,
-    California: null,
-    Jamaica: null,
-    Europe: null,
-    "The Bahamas": null,
+    "Shuka Vana": null,
+    "Kishkindha Moolika Bonsai Garden": null,
+    "Karanji Lake": null,
+    "GRS Fantasy Park": null,
+    "St. Philomena's Cathedral": null,
+    "Jaganmohan Palace Art Gallery and Auditorium": null,
+    "Talakad": null,
+    "Folk-Lore Museum Mysore": null,
+    "Chamundi Hills": null,
+
   },
 });
 
